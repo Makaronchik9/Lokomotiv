@@ -3,10 +3,12 @@ package Study;
 public class Boolean {
     public static void main(String[] args) {
         int a = 18;
-        if (a > 15) {
+        if (a == 15) {
             System.out.println("в команте тепло");
-        } else {
+        } else if (a <15) {
             System.out.println("в комнате холодно");
+        } else {
+            System.out.println("в комнате круто");
         }
         int c = 5;
         int b = 7;
